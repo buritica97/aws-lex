@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "description": "The riskLevel custom slot will be used to retrieve the risk level the user is willing to take on the investment portfolio.",
+    "name": "riskLevel",
+    "version": "1",
+    "enumerationValues": [
+      {
+        "value": "High",
+        "synonyms": [
+          "Maximum"
+        ]
+      },
+      {
+        "value": "Very Low",
+        "synonyms": []
+      },
+      {
+        "value": "Low",
+        "synonyms": [
+          "Minimal"
+        ]
+      },
+      {
+        "value": "Very High"
+      },
+      {
+        "value": "Medium",
+        "synonyms": [
+          "Moderate"
+        ]
+      },
+      {
+        "value": "None",
+        "synonyms": [
+          "Zero"
+        ]
+      }
+    ],
+    "valueSelectionStrategy": "TOP_RESOLUTION"
+  }
+}
